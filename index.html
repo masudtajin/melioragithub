@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-area">
+                   <a href="#"><img  class="logo" src="image/logo.png" alt=""></a> 
+                </div>
+                <div class="nav-area">
+                    <ul class="nav-menu">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#" class="center">more<span class="iconify" data-icon="majesticons:chevron-down-line"></span></a></li>
+                    </ul>
+                    <div class="search-area">
+                        <input type="text" class="serach-input" placeholder="search">
+                        <span class="iconify" data-icon="ei:search"></span>
+                    </div>
+                    <button onclick="myFunction1()" class="menu-btn">
+                        <span></span>
+                        <span></span> 
+                        <span></span>
+                    </button>
+                </div>   
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- user interface section -->
+    <div class="user-area">
+        <div class="container">
+            <div class="user-area-content">                       
+                <small>User interface</small>
+                <h1>Bad Design vs. Good Design: 5 Examples We can Learn From</h1>
+                <div class="author-area">
+                    <span class="date">October 24.2020</span>
+                    <span class="author-name">Shane Hobbins</span>    
+                </div>
+                <div class="img-area" style="background-image: url(image/Img\ 01.png);">
+                   
+                </div>
+                <div class="text-fist-block">
+                    <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis sagittis sem ac porta. Sed commodo ligula vitae mollis tristique. Maecenas egestas semper mauris. Duis tempus blandit ultrices. Proin elit nulla, viverra id suscipit quis, tristique a dolor. Sed dapibus, orci ac luctus tincidunt, massa erat porttitor odio, non imperdiet dui risus et elit.
+                    </p>
+                    <h2>Information overload</h2>
+                    <p class="p-2"> 
+                        Vivamus dictum ultrices tortor. Ut imperdiet, enim in suscipit dignissim, mauris massa pellentesque augue, quis ultricies sem tortor et velit.
+                    </p>
+                </div>
+               
+                <div class="text-sccond-block">
+                    <p class="p-3">
+                        Sed commodo ligula vitae mollis tristique. Maecenas egestas semper mauris. Duis tempus blandit ultrices. Proin elit nulla, viverra id suscipit quis, tristique a dolor.
+                    </p>
+                    <p class="p-4"> ‘Designing For Sustainability, Tim Frick, 2014'</p>
+                </div>
+                <h2 style="padding-top: 48px; padding-bottom: 40px;">Lessons Learnt: Best Practice</h2>
+                <div class="list-area">
+                    <ul style="list-style-type:disc; margin: 0; padding-left: 16px;">
+                        <li style="padding-left: 18px; padding-bottom: 40px;">Morbi congue odio vel luctus aliquam. Morbi accumsan sapien at lorem ultricies aliquam eu eu nisl. Suspendisse.</li>
+                        <li style="padding-left: 18px; padding-bottom: 64px;"> Maecenas sit amet ligula auctor neque aliquam placerat et ac neque. Proin risus eros, fringilla eu suscipit dignissim, dignissim.</li>
+                    </ul> 
+                </div>
+                <div class="tag-area">
+                    <span class="tag1">#HCI</span>
+                    <span class="tag2">#Design Thinking</span>
+                </div>
+                <div class="social-icon-area" style="padding-top: 41px;">
+                    <div class="social-icon">
+                        <small style="padding-bottom: 0; padding-right: 24px;">Share</small>
+                        <div class="icons">
+                            <a href="#"><span class="iconify" data-icon="eva:facebook-fill"></span></a>
+                            <a href="#"><span class="iconify" data-icon="bi:person-fill"></span></a>
+                            <a href="#"><span class="iconify" data-icon="ant-design:twitter-outlined"></span></a>
+                            <a href="#"><span class="iconify" data-icon="cib:linkedin-in"></span></a>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="add-comment-area">
+                    <h2 style="padding-bottom: 52px;">Add a Comment</h2>
+                    <form>
+                        <div class="comment-area">
+                            <div>
+                                <label for="fname">Name*</label><br>
+                                <input type="text" id="fname" name="fname" value="Shane Hobbins"> 
+                            </div>
+                            <div>
+                                <label for="fname">Email*</label><br>
+                                <input type="text" id="fname" name="fname" value="info@interface.com">
+                            </div>
+                            <div>
+                                <label for="fname">Website</label><br>
+                                <input type="text" id="fname" name="fname" value="www.interface.com">
+                            </div>
+
+                        </div>
+                        <fieldset style="padding: 0px; border: 0px;">
+                            <div class="checkbox-area">
+                                <div class="flex--item">
+                                    <input class="s-checkbox" type="checkbox" name="example-name" id="example-item" />
+                                </div>
+                                <label class="flex--item s-label fw-normal" for="example-item">Save my name, email, and website in this browser for the next time I comment</label>
+                            </div>
+                        </fieldset>
+                       
+                        <div>
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style="margin-top: 8px;"></textarea>
+                        </div>
+                        <button class="post-btn">post</button>
+                    </form> 
+                </div>
+
+
+                <div class="comments" style="padding-top: 64px;">
+                    <h2>Comments</h2>
+                    <div class="coment-one" style="display: flex; padding-top: 50px;">
+                        <img src="image/Img 02.png" alt="" style="width: 70px; height: 70px; padding-right: 24px;">
+                        <div class="comment-text">
+                            <div class="name-time">
+                                <h2>Jon Davis</h2>
+                                <span>2 Minutes ago</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna. </p>
+                            <div class="reaply-area">
+                                <img src="image/Vector (1).png" alt="">
+                                <span>Reply</span>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="coment-two" style="display: flex; padding-top: 34px; padding-left: 90px;">
+                        <img src="image/Img 03.png" alt="" style="width: 70px; height: 70px; padding-right: 24px;">
+                        <div class="comment-text">
+                            <div class="name-time">
+                                <h2>Shane Hobbins</h2>
+                                <span>Just now</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            <div class="reaply-area" style="margin-bottom: 32px">
+                                <img src="image/Vector (1).png" alt="">
+                                <span>Reply</span>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="coment-one" style="display: flex; padding-top: 33px;">
+                        <img src="image/Img 02.png" alt="" style="width: 70px; height: 70px; padding-right: 24px;">
+                        <div class="comment-text">
+                            <div class="name-time">
+                                <h2>Jon Davis</h2>
+                                <span>Just now</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                            <div class="reaply-area">
+                                <img src="image/Vector (1).png" alt="">
+                                <span>Reply</span>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-area">
+            <div class="container">
+                <div class="position-arrow">
+                    <div class="icon-arrow" onclick="myFunction2()">
+                        <img class="arro-icon" src="image/Icon color.png" alt="">
+                    </div>  
+                </div>
+                <div class="footer-content">  
+                    <div class="footer-copyright-content">
+                       <a href="#"> <p>Copyrigh 2020 Meliora, Inc</p></a>
+                        <div class="social-icons">
+                            <a href=""><img src="image/Icon color (1).png" alt=""></a>
+                            <a href="#"><img src="image/Icon color (2).png" alt=""></a>
+                            <a href="#"><img src="image/Icon color (3).png" alt=""></a>
+                            <a href="#"><img src="image/Icon color (4).png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script -->
+    <script>
+        function myFunction1() {
+            let element = document.querySelector('.header');
+            element.classList.toggle('open-menu');
+        }
+        function myFunction2() {
+            let element = document.querySelector('.footer');
+            element.classList.toggle('open-footer-menu');
+        }
+    </script>
+
+   
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</body>
+</html>
